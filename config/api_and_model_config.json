@@ -1,0 +1,105 @@
+{
+  "artifact_scope": "Public camera-ready artifact for v18-reported Chinese-English XNLI prompt-interface experiments only.",
+  "secrets_included": false,
+  "dataset_text_included": false,
+  "provider_endpoints": {
+    "dashscope_qwen": {
+      "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "api_key_included": false
+    },
+    "openrouter": {
+      "base_url": "https://openrouter.ai/api/v1",
+      "api_key_included": false
+    },
+    "local_openai_compatible": {
+      "base_url": "http://127.0.0.1:8000/v1",
+      "api_key_included": false
+    }
+  },
+  "model_api_settings": [
+    {
+      "model_provider": "dashscope_qwen",
+      "model_name": "qwen3-235b-a22b-instruct-2507",
+      "model_family": "qwen3",
+      "model_scale": "235b-a22b",
+      "api_key_included": false,
+      "temperature": 0,
+      "top_p": 1,
+      "max_tokens": 32,
+      "stream": false,
+      "result_rows": 4800
+    },
+    {
+      "model_provider": "dashscope_qwen",
+      "model_name": "qwen3-32b",
+      "model_family": "qwen3",
+      "model_scale": "32b",
+      "api_key_included": false,
+      "temperature": 0,
+      "top_p": 1,
+      "max_tokens": 32,
+      "stream": false,
+      "result_rows": 4800
+    },
+    {
+      "model_provider": "dashscope_qwen",
+      "model_name": "qwen3-8b",
+      "model_family": "qwen3",
+      "model_scale": "8b",
+      "api_key_included": false,
+      "temperature": 0,
+      "top_p": 1,
+      "max_tokens": 32,
+      "stream": false,
+      "result_rows": 45600
+    },
+    {
+      "model_provider": "openrouter",
+      "model_name": "meta-llama/llama-3.1-70b-instruct",
+      "model_family": "llama3.1",
+      "model_scale": "70b",
+      "api_key_included": false,
+      "temperature": 0,
+      "top_p": 1,
+      "max_tokens": 32,
+      "stream": false,
+      "result_rows": 30000
+    },
+    {
+      "model_provider": "openrouter",
+      "model_name": "meta-llama/llama-3.1-8b-instruct",
+      "model_family": "llama3.1",
+      "model_scale": "8b",
+      "api_key_included": false,
+      "temperature": 0,
+      "top_p": 1,
+      "max_tokens": 32,
+      "stream": false,
+      "result_rows": 21600
+    }
+  ],
+  "fallback_model_rows": [
+    {
+      "model_provider": "local_openai_compatible",
+      "model_name": "Llama-3.1-8B-Instruct-4bit",
+      "api_key_included": false,
+      "result_rows": 2
+    }
+  ],
+  "decoding_note": "All reported runs used deterministic decoding where applicable: temperature=0, top_p=1, max_tokens=32, stream=false.",
+  "excluded_fields": [
+    "premise",
+    "hypothesis",
+    "provider_response_id",
+    "timestamp",
+    "row_id",
+    "request_metadata",
+    "repair_metadata",
+    "reasoning_content",
+    "api_keys",
+    "local_absolute_paths",
+    "source_file_id",
+    "token_usage_fields"
+  ],
+  "raw_output_policy": "Raw model output is released only when it is exactly an allowed label or option symbol. Non-label invalid outputs are withheld."
+}
