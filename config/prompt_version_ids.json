@@ -1,0 +1,88 @@
+{
+  "abc_only": {
+    "system_prompt_version_ids": [
+      "xnli_en_system_abstract_labels_v1",
+      "xnli_zh_system_abstract_labels_v1"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_en_user_abstract_labels_v1",
+      "xnli_zh_user_abstract_labels_v1"
+    ],
+    "rows": 28800
+  },
+  "alternate_chinese_labels": {
+    "system_prompt_version_ids": [
+      "xnli_en_system_v2_alt_zh_labels_v1",
+      "xnli_zh_system_v2_alt_zh_labels_v1"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_en_user_v2_alt_zh_labels_v1",
+      "xnli_zh_user_v2_alt_zh_labels_v1"
+    ],
+    "rows": 12000
+  },
+  "alternative_sample_semantic_baseline": {
+    "system_prompt_version_ids": [
+      "xnli_en_system_v2_unified",
+      "xnli_zh_system_v2_unified"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_en_user_v2_unified",
+      "xnli_zh_user_v2_unified"
+    ],
+    "rows": 4800
+  },
+  "anchored_abc": {
+    "system_prompt_version_ids": [
+      "xnli_en_system_anchored_abc_v1",
+      "xnli_zh_system_anchored_abc_v1"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_en_user_anchored_abc_v1",
+      "xnli_zh_user_anchored_abc_v1"
+    ],
+    "rows": 21600
+  },
+  "llama8_abc_boundary": {
+    "system_prompt_version_ids": [
+      "xnli_en_system_abstract_labels_v1",
+      "xnli_zh_system_abstract_labels_v1"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_en_user_abstract_labels_v1",
+      "xnli_zh_user_abstract_labels_v1"
+    ],
+    "rows": 14400
+  },
+  "main_semantic_baseline": {
+    "system_prompt_version_ids": [
+      "xnli_en_system_v2_unified",
+      "xnli_zh_system_v2_unified"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_en_user_v2_unified",
+      "xnli_zh_user_v2_unified"
+    ],
+    "rows": 12000
+  },
+  "qwen3_8b_label_language_swap": {
+    "system_prompt_version_ids": [
+      "xnli_en_system_label_language_swap_v1",
+      "xnli_zh_system_label_language_swap_v1"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_en_user_label_language_swap_v1_label_zh",
+      "xnli_zh_user_label_language_swap_v1_label_en"
+    ],
+    "rows": 2400
+  },
+  "semantic_output_anchor": {
+    "system_prompt_version_ids": [
+      "xnli_zh_system_semantic_output_anchor_v1"
+    ],
+    "user_prompt_version_ids": [
+      "xnli_zh_user_semantic_output_anchor_v1"
+    ],
+    "rows": 10800
+  }
+}
