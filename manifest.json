@@ -1,0 +1,106 @@
+{
+  "artifact_name": "stratified-prompt-interface-artifact",
+  "created_for": "public camera-ready reproducibility artifact",
+  "manuscript_version_scope": "stratified_interface_v18_camera_ready.tex",
+  "repository": "https://github.com/zhao4hua4/stratified-prompt-interface",
+  "repository_branch": "main",
+  "dataset_text_included": false,
+  "api_keys_included": false,
+  "scripts_included": false,
+  "reported_results_only": true,
+  "row_counts": {
+    "results/abc_only_per_id.csv": 28800,
+    "results/alternate_chinese_labels_per_id.csv": 12000,
+    "results/alternative_sample_semantic_baseline_per_id.csv": 4800,
+    "results/anchored_abc_per_id.csv": 21600,
+    "results/llama8_abc_boundary_per_id.csv": 14400,
+    "results/main_semantic_baseline_per_id.csv": 12000,
+    "results/qwen3_8b_label_language_swap_per_id.csv": 2400,
+    "results/semantic_output_anchor_per_id.csv": 10800,
+    "samples/alternative_sample_ids.csv": 1200,
+    "samples/main_sample_ids.csv": 1200
+  },
+  "result_file_diagnostics": [
+    {
+      "file": "results/abc_only_per_id.csv",
+      "rows": 28800,
+      "correct_rows": 18453,
+      "valid_rows": 28800,
+      "error_present_rows": 0,
+      "withheld_raw_outputs": 0
+    },
+    {
+      "file": "results/alternate_chinese_labels_per_id.csv",
+      "rows": 12000,
+      "correct_rows": 8725,
+      "valid_rows": 12000,
+      "error_present_rows": 0,
+      "withheld_raw_outputs": 0
+    },
+    {
+      "file": "results/alternative_sample_semantic_baseline_per_id.csv",
+      "rows": 4800,
+      "correct_rows": 3187,
+      "valid_rows": 4796,
+      "error_present_rows": 1,
+      "withheld_raw_outputs": 4
+    },
+    {
+      "file": "results/anchored_abc_per_id.csv",
+      "rows": 21600,
+      "correct_rows": 14839,
+      "valid_rows": 21600,
+      "error_present_rows": 0,
+      "withheld_raw_outputs": 0
+    },
+    {
+      "file": "results/llama8_abc_boundary_per_id.csv",
+      "rows": 14400,
+      "correct_rows": 7559,
+      "valid_rows": 14400,
+      "error_present_rows": 0,
+      "withheld_raw_outputs": 588
+    },
+    {
+      "file": "results/main_semantic_baseline_per_id.csv",
+      "rows": 12000,
+      "correct_rows": 8847,
+      "valid_rows": 12000,
+      "error_present_rows": 0,
+      "withheld_raw_outputs": 0
+    },
+    {
+      "file": "results/qwen3_8b_label_language_swap_per_id.csv",
+      "rows": 2400,
+      "correct_rows": 1652,
+      "valid_rows": 2400,
+      "error_present_rows": 0,
+      "withheld_raw_outputs": 0
+    },
+    {
+      "file": "results/semantic_output_anchor_per_id.csv",
+      "rows": 10800,
+      "correct_rows": 7660,
+      "valid_rows": 10800,
+      "error_present_rows": 0,
+      "withheld_raw_outputs": 0
+    }
+  ],
+  "sha256": {
+    "README.md": "b1abfad61d8bdee9a7bd9341ea89618c61822f8bc802b8cde2bec4fc69991aa4",
+    "config/abc_mappings.json": "d30e9d55529416927e052c9608ac623569ab4262d3a18072a02a42bd4af7e334",
+    "config/api_and_model_config.json": "16f4c77e6a5e5dc6834798215c450887fc098f28b52b61852873aafb1fbde272",
+    "config/prompt_version_ids.json": "0ed692d5922feb120b0764986a7a5465bbfaa6be175e1baed6ca261c64d52e2b",
+    "docs/reported_items_data_map.md": "0a57398d7fc5d72dae6ea8cc0d2a651c4bfa2a76d43d22cfdeb8629caeee26e0",
+    "results/abc_only_per_id.csv": "17b93926c55f10a12254bb2b0482e66d1086faa2280b3c1742aafd859d3d0cbc",
+    "results/alternate_chinese_labels_per_id.csv": "4bb4690ae164bcd7e1ebf2cea237c1f2d6d934166f53df56030da987f3ab36a5",
+    "results/alternative_sample_semantic_baseline_per_id.csv": "5cd9ab4c2893d6378c0a4c0065734fd02bb46095915b34a5c41ccd1917c3132a",
+    "results/anchored_abc_per_id.csv": "ada1c63c6a30f58bd56e4e20eec7d070b43b911f0c655f4dc3018aebc8ffd298",
+    "results/llama8_abc_boundary_per_id.csv": "3243bac04b7e4b1fb471bdeab5598ae5ee737e80a85c6ff5ab2ffaa6fbec183e",
+    "results/main_semantic_baseline_per_id.csv": "33b1001ac8f6eef07066c90dc8cbea9af10c234a3fd99fa4447b6e1fcb9959c0",
+    "results/qwen3_8b_label_language_swap_per_id.csv": "f7f8d6b0342a6dce2c404a0e0c479735a5ff0cc97bf653353e08bb51ececea6c",
+    "results/semantic_output_anchor_per_id.csv": "46e143468682676607e269951ecd2eeb3555b0ab05414ee3bb6c2bc35a079d9f",
+    "samples/alternative_sample_ids.csv": "3a3128e4182751b22ab65045832e1b2267a4dda8fbb300f7b92aebc0f060e219",
+    "samples/main_sample_ids.csv": "6f3547c5962a3683bcda85934176c320793ee7b6a662c9b9a4603619c28043fb"
+  }
+}
