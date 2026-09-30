@@ -4,11 +4,7 @@ This is the public, text-free reproducibility artifact accompanying **“Prompt 
 
 Repository: <https://github.com/zhao4hua4/stratified-prompt-interface>
 
-This artifact corresponds to the camera-ready manuscript (`stratified_interface_v18_camera_ready.tex`) and release `v1.0.0`.
-
-## Download
-
-The complete artifact is attached to the repository's `v1.0.0` GitHub release as `stratified-prompt-interface-artifact-v1.0.0.tar.gz`. A matching `.sha256` sidecar is provided for integrity checking.
+This artifact corresponds to the camera-ready manuscript (`stratified_interface_v18_camera_ready.tex`) and is published directly on the repository's `main` branch.
 
 ## What is included
 
