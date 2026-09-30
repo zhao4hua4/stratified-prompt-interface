@@ -1,0 +1,82 @@
+{
+  "mappings": [
+    {
+      "mapping_id": "abc_m1",
+      "option_to_label": {
+        "A": "entailment",
+        "B": "neutral",
+        "C": "contradiction"
+      },
+      "used_in_result_sets": [
+        "abc_only",
+        "anchored_abc",
+        "semantic_output_anchor"
+      ]
+    },
+    {
+      "mapping_id": "abc_m2",
+      "option_to_label": {
+        "A": "contradiction",
+        "B": "entailment",
+        "C": "neutral"
+      },
+      "used_in_result_sets": [
+        "abc_only",
+        "anchored_abc",
+        "semantic_output_anchor"
+      ]
+    },
+    {
+      "mapping_id": "abc_m3",
+      "option_to_label": {
+        "A": "neutral",
+        "B": "contradiction",
+        "C": "entailment"
+      },
+      "used_in_result_sets": [
+        "abc_only",
+        "anchored_abc",
+        "semantic_output_anchor"
+      ]
+    },
+    {
+      "mapping_id": "abc_m4",
+      "option_to_label": {
+        "A": "entailment",
+        "B": "contradiction",
+        "C": "neutral"
+      },
+      "used_in_result_sets": [
+        "abc_only",
+        "anchored_abc",
+        "semantic_output_anchor"
+      ]
+    },
+    {
+      "mapping_id": "abc_m5",
+      "option_to_label": {
+        "A": "neutral",
+        "B": "entailment",
+        "C": "contradiction"
+      },
+      "used_in_result_sets": [
+        "abc_only",
+        "anchored_abc",
+        "semantic_output_anchor"
+      ]
+    },
+    {
+      "mapping_id": "abc_m6",
+      "option_to_label": {
+        "A": "contradiction",
+        "B": "neutral",
+        "C": "entailment"
+      },
+      "used_in_result_sets": [
+        "abc_only",
+        "anchored_abc",
+        "semantic_output_anchor"
+      ]
+    }
+  ]
+}
