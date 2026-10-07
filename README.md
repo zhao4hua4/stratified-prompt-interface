@@ -1,10 +1,6 @@
 # Prompt as Stratified Interface: Reproducibility Artifact
 
-This is the public, text-free reproducibility artifact accompanying **“Prompt as Stratified Interface: Decomposing Label-Mediated Effects in Chinese-English NLI”** by Hua Zhao, Zhiqing Yang, and Michelle Mingyue Gu.
-
-Repository: <https://github.com/zhao4hua4/stratified-prompt-interface>
-
-This artifact corresponds to the camera-ready manuscript (`stratified_interface_v18_camera_ready.tex`) and is published directly on the repository's `main` branch.
+This is the public, reproducibility artifact accompanying **“Prompt as Stratified Interface: Decomposing Label-Mediated Effects in Chinese-English NLI”** by Hua Zhao, Zhiqing Yang, and Michelle Mingyue Gu.
 
 ## What is included
 
